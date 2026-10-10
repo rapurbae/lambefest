@@ -1,10 +1,10 @@
-# lampefest.com
+# lambefest.com
 
-Landing page "Coming Soon" untuk **Lampefest** — festival musik dari Lambe.
+Landing page "Coming Soon" untuk **Lambefest** — festival musik dari Lambe.
 
 - **Tema:** neon magenta / cyan / sunset — energi festival ala *"Spill The Beat. Feel The Heat."*
 - **Fitur:** form "Ingatkan Saya" (email), tombol "Set Reminder" (Google Calendar), marquee strip.
-- **Domain:** [lampefest.com](https://lampefest.com)
+- **Domain:** [lambefest.com](https://lambefest.com)
 
 ## Struktur
 
@@ -21,4 +21,4 @@ Background hero: "festival crowd under stage lights" — Yvette de Wit (@yvetted
 
 ## Deploy
 
-Static site — deploy via Vercel (repo GitHub: `rapurbae/lampefest`).
+Static site — deploy via Vercel (repo GitHub: `rapurbae/lambefest`).

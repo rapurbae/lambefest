@@ -2,15 +2,15 @@
   "use strict";
 
   /* ====== config ====== */
-  var LAUNCH = new Date("2027-07-10T16:00:00+08:00"); // hari-H Lampefest (Summer 2027, Bali)
-  var STORE_KEY = "lampefest-notify-email";
-  var CAL_TITLE = "LAMPEFEST — Festival Musik dari Lambe";
+  var LAUNCH = new Date("2027-07-10T16:00:00+08:00"); // hari-H Lambefest (Summer 2027, Bali)
+  var STORE_KEY = "lambefest-notify-email";
+  var CAL_TITLE = "LAMBEFEST — Festival Musik dari Lambe";
   var CAL_DETAILS =
-    "Spill The Beat. Feel The Heat. Festival musik Lampefest di Nuanu, Bali. " +
-    "Kunjungi lampefest.com untuk info tiket & lineup.";
+    "Spill The Beat. Feel The Heat. Festival musik Lambefest di Nuanu, Bali. " +
+    "Kunjungi lambefest.com untuk info tiket & lineup.";
   var CAL_LOCATION = "Nuanu, Bali, Indonesia";
   var NOTIFY_ENDPOINT = "https://formsubmit.co/ajax/asraffahruddin741@gmail.com";
-  var NOTIFY_SUBJECT = "[lampefest.com] Email baru dari landing page";
+  var NOTIFY_SUBJECT = "[lambefest.com] Email baru dari landing page";
 
   /* ====== google calendar "set reminder" ====== */
   function gcalStamp(d) {
@@ -69,7 +69,7 @@
         headers: { "Content-Type": "application/json", Accept: "application/json" },
         body: JSON.stringify({
           email: value,
-          sumber: "lampefest.com",
+          sumber: "lambefest.com",
           _subject: NOTIFY_SUBJECT,
           _template: "table",
           _captcha: "false",
